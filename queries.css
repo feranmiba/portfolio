@@ -1,0 +1,520 @@
+/* big tablet to 1200px (width smaller than the 1140px row)*/
+@media only screen and (max-width: 1200px) { 
+    .nav {  padding: 0 8rem;}
+    .img-fluid {width: 90%;}
+    #look {font-size: 40px;}
+    .fore{margin-top: 1.4%; width: 60%; }
+    .spilt{padding: 0 20rem; }
+    .serves{font-size: 80px;}
+    .con {width: 310px;height: 200px;}
+    #world {font-size: 20px;}
+    .list {line-height: 2;}
+    .lance { margin-left: 30%; margin-top: -32%;}
+    .hire {margin-top: -22%;}
+    .ted {padding: 0 15rem;}
+    .ftco-footer-social li a span {font-size: 22px;}
+    .ftco-footer-social li {margin: 0 2px;}
+    .soso{width: 95%;}
+    .yawa {margin-left: 8%;}
+    .navbar {  display: none; }
+}
+
+@media only screen and (max-width: 975px) { 
+    .nav {  padding: 0 4.7rem;}
+    .ami {font-size: 28px;}
+    .dev {
+        font-size: 15px;
+    }
+    .nav__links {
+        margin-right: -5%;
+        font-size: 14px;
+    }
+    .nav__item {
+        margin-left: 1rem;}
+        #look {font-size: 35px;}
+    .con {width: 280px;height: 200px;}
+    .list {line-height: 1.8;  font-size: 22px;}
+    .fore{margin-top: 0,4%; width:80%; }
+    .spilt{padding: 0 8rem; }
+    .lance { margin-left: 22%; margin-top: -36%;}
+    .hire {margin-top: -25%;  margin-left: -17}
+    .yawa {margin-left: 8%;}
+    .ted {padding: 0 3rem;}
+    .ftco-footer-social li a span {font-size: 22px; top: 40%;
+        left: 40%; transform: translate(-30%, -30%);}
+    .ftco-footer-social li {margin: 0 1px;}
+    .ftco-footer-social li a {
+        height: 35px;
+        width: 35px;}
+    .soso{width: 90%;}
+    .ok,
+    .kk {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .top {
+        margin-left: -6%;
+    }
+    .ab {font-size: 35px;}
+    .far {
+        font-size: 15px;
+    }
+}
+
+/*small tablet to big tablet:from 768px to1023px*/
+@media only screen and (max-width: 850px) { 
+    .nav {  padding: 0 4.7rem;}
+    .ami {font-size: 28px;}
+    .dev {
+        font-size: 15px;
+    }
+    .nav__links {
+        margin-right: -5%;
+        font-size: 14px;
+    }
+    .nav__item {
+        margin-left: 1rem;}
+        #look {font-size: 35px;}
+    .con {width: 242px;height: 180px;}
+    .list {line-height: 1.8;  font-size: 22px;}
+    .fore{margin-top: 0,4%; width:80%; }
+    .spilt{padding: 0 8rem; }
+    .lance { margin-left: 22%; margin-top: -36%;}
+    .hire {margin-top: -25%;  margin-left: -17}
+    .yawa {margin-left: 8%;}
+    .ted {padding: 0 3rem;}
+    .ftco-footer-social li a span {font-size: 22px; top: 40%;
+        left: 40%; transform: translate(-30%, -30%);}
+    .ftco-footer-social li {margin: 0 1px;}
+    .ftco-footer-social li a {
+        height: 35px;
+        width: 35px;}
+    .soso{width: 90%;}
+    .ok,
+    .kk {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .top {
+        margin-left: -6%;
+    }
+    .ab {font-size: 35px;}
+    .far {
+        font-size: 15px;
+    }
+}
+
+/*small phones to small tablets: from 481 to767px*/
+@media only screen and (max-width: 759px) {
+    .nav {  padding: 0 3rem;}
+    .ami {font-size: 25px;}
+    .dev {
+        font-size: 12px;
+    }
+    .bread {
+        font-size: 45px;}
+        .breadcrumbs {
+            font-size: 25px;
+        }
+        .it {
+            font-size: 15px;
+            
+        }
+  .hide {
+      display: none;  
+    } 
+    .nav__links {
+        position: absolute;
+        font-size: 16px;  
+        margin-top: 10%;
+        background-color: rgba(14, 10, 10);
+        width: 100%;
+      }
+      .nav__item {
+        display: inline-block;
+      }
+      .nav__link {
+      margin-left: -5%;      
+      text-decoration: none;
+        color: beige;
+        text-transform: uppercase;
+      }
+      .navbar {
+        display: inline-block;
+        padding: 0.25rem 0.75rem;
+        font-size: 2rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+        }
+      .navclose  {
+        display: inline-block;
+        padding: 0.25rem 0.75rem;
+        font-size: 2rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;  
+    }
+    .navbar-icon, 
+    .navclose-icon {
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+        content: "";
+        background: no-repeat center center;
+        background-size: 100% 100%; }
+        .img-fluid {
+            width: 100%;
+        } 
+        .hidden {
+            display: none;
+          }
+        .fore {
+            display: flex;
+            justify-content: center;
+            font-size: 20px;
+            width: 96%;
+            position:absolute ;
+            margin-top: 75%;
+        } 
+        #look {
+            position: absolute;
+            font-size: 30px;
+            margin-top: -15%;
+        }
+        .services {
+            margin-top: 80%;
+        }
+        /*skills*/
+        .reach {
+            display: flex;
+            align-items: center;
+            margin-top: 5%; 
+          }
+          .small {
+            height: 300px;
+            margin-left: 12%;
+          }
+         /*servicees*/
+         .mobile {
+            position: absolute;
+            margin-top: 70%;
+            padding-left: 75px;
+        }
+        .see {
+            display: flex;
+            justify-content: center;
+        }
+        /*projects*/
+        .con {
+            width: 220px;
+        }
+        .hire {
+            margin-top: -25%; 
+             margin-left: 40%;
+             padding: 5px 20px 5px 20px;
+             font-size: 16px;
+            }
+        .lance {
+            margin-left: 20%;
+            margin-top: -35%;
+            font-size: 28px;
+        }
+        /*contact*/ 
+        .ted {
+            padding: 0 2rem;
+        }
+        .uni {
+            padding: 22px 22px 22px 22px;
+        }
+        /*footer*/
+        .soso{width: 90%;}
+    .ok,
+    .kk {
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .top,
+    .emin {
+        margin-left: -12%;
+    }
+    .ab {font-size: 30px;}
+    .far {
+        font-size: 14px;
+    }
+    .ftco-footer-social li a span {font-size: 20px; top: 35%;
+        left: 35%; transform: translate(-25%, -25%);}
+    .ftco-footer-social li {margin: 0 1px;}
+    .ftco-footer-social li a {
+        height: 30px;
+        width: 30px;}
+
+}
+/*small phones to small tablets: from 481 to767px*/
+@media only screen and (max-width: 650px) { 
+    .con {
+        width: 170px;
+        height: 120px;
+    }
+    .ted {
+        padding: 0 1rem;
+    }
+    .my {
+        margin-left: 60px;
+    }
+    .se {
+        margin-left: 25px; 
+    }
+    .hire {
+        margin-top: -35%; 
+        }
+    .lance {
+        margin-left: 18%;
+        margin-top: -50%;
+    }
+    .num {
+        font-size: 15px;
+       }
+
+       /*skills*/
+       .reach {
+        display: flex;
+        align-items: center;
+        margin-top: 5%; 
+      }
+      .small {
+        height: 280px;
+        margin-left: 10%;
+      }
+    /*footer*/
+    .soso{width: 87%;}
+    .ok,
+    .kk {
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .top {
+        margin-left: -12%;  
+    }
+    .ab {font-size: 28px;}
+    .far {
+        font-size: 14px;
+    }
+    .mr-3 {
+        font-size: 20px;
+    }
+    .nav__links {
+        font-size: 14px;  
+    }
+    .nav__link {
+        margin-left: -10%;  
+    }
+}
+/*small phones to small tablets: from 481 to767px*/
+@media only screen and (max-width: 560px) { 
+    .nav__links {
+        font-size: 12px;  
+    }
+    .con {
+        width: 140px;
+        height: 100px;
+    }
+    .ted {
+        padding: 0 0rem;
+    }
+   .num {
+    font-size: 13px;
+   }
+   .hire {
+    margin-top: -45%; 
+     margin-left: 35%;
+   }
+   .lance {
+    margin-left: 10%;
+    margin-top: -60%;
+   }
+   /*skills*/
+   .reach {
+    display: flex;
+    align-items: center;
+    margin-top: 5%; 
+  }
+  .small {
+    height: 250px;
+    margin-left: 8%;
+  }
+   /*footer*/
+   .soso{width: 90%;}
+   .ok,
+   .kk {
+       font-size: 10px;
+       font-weight: 500;
+   }
+   .top {
+       margin-left: -12%;  
+   }
+   .ab {font-size: 20px;}
+   .far {
+       font-size: 11px;
+   }
+   .mr-3 {
+       font-size: 15px;
+   }
+   .ftco-footer-social li a span {font-size: 15px; top: 30%;
+    left: 30%; transform: translate(-20%, -20%);}
+.ftco-footer-social li {margin: 0 0px;}
+.ftco-footer-social li a {
+    height: 25px;
+    width: 25px;}
+    .se {margin-left: 0px;  }
+  
+}
+/*small phones to small tablets: from 0  to 480px*/
+@media only screen and (max-width: 480px) { 
+    .nav__links {
+        font-size: 10px;  
+    }
+    .nav {  padding: 0 3rem;}
+    .ami {font-size: 20px;}
+    .dev {
+        font-size: 10px;
+    }
+    .bread {
+        font-size: 40px;}
+        .breadcrumbs {
+            font-size: 25px;
+        }
+        .it {
+            font-size: 15px;
+            
+        }
+        /*about*/
+        .img-fluid {
+            width: 100%;
+        }   
+        .fore {
+            display: flex;
+            justify-content: center;
+            font-size: 18px;
+            width: 96%;
+            position:absolute ;
+            margin-top: 80%;
+        } 
+        #look {
+            position: absolute;
+            font-size: 25px;
+            margin-top: -15%;
+        }
+        .services {
+            margin-top: 85%;
+        }
+        /*servicees*/
+        .mobile {
+            margin-top: 70%;
+            padding-left: 72px;
+        }
+        .web {
+            font-size: 14px;
+        }
+        .shi {
+            width: 10%;
+        }
+
+        /*skills*/
+        .serves {
+            font-size: 50px;
+        }         
+        .serve {
+            font-size: 40px;
+        } 
+        .reach {
+            display: flex;
+            align-items: center;
+            margin-top: 5%; 
+          }
+          .small {
+            height: 200px;
+            margin-left: 5%;
+          }
+       /*projects*/
+       .lets {
+       margin-left: 5%;
+        justify-content: center;
+        margin-top: 5%;
+       }
+       .wey {
+        margin-top: 5%;
+       }
+       .con{
+        width: 300%;
+        height: 200%;
+       }
+       .yawa {
+        margin-left: 0%;
+       }
+       .na {height: 150%;}
+       .lance { margin-left: 15%; margin-top: -40%; font-size: 20px;}
+       .hire {margin-top: -25%; 
+         margin-left: 30%;
+         padding: 8px 25px 8px 25px;
+         font-size: 14px;
+         border-radius: 15mm;
+        }
+        /*contacts*/
+        .spil {
+            display: inline;
+        }
+        .icons {
+            margin-bottom: 5px;
+            display: flex;
+            justify-content: center;
+            margin-top: 3%;
+        }
+        .wa {
+            margin-left: 0%;
+        }
+        .ok,
+        .kk {
+            font-size: 16px;
+        }
+        .top {
+            margin-left: 0%;
+        }
+        .my {
+            margin-left: 0px;
+        }
+        .ftco-footer-social li a span {font-size: 25px; top: 40%;
+            left: 40%; transform: translate(-30%, -30%);}
+        .ftco-footer-social li {margin: 0 0px;}
+        .ftco-footer-social li a {
+            height: 35px;
+            width: 35px;}
+            .se {margin-left: 2px;  }
+            
+}
+@media only screen and (max-width: 400px) { 
+    .nav {  padding: 0 2rem;}
+    .ami {font-size: 18px;}
+    .dev {
+        font-size: 8px;
+    }
+    .bread {
+        font-size: 32px;}
+        .breadcrumbs {
+            font-size: 20px;
+        }
+        .it {
+            font-size: 15px;
+            
+        }
+        .serves {
+            font-size: 50px;
+        }         
+        .serve {
+            font-size: 30px;
+        } 
+        
+}
